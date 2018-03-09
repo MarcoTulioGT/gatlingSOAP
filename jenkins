@@ -23,7 +23,7 @@ pipeline {
                 }
 
         echo 'Test...'
-          sh 'mvn gatling:test -Dgatling.simulationClass=computerdatabase.BasicSimulation'
+          sh 'mvn gatling:test -Dgatling.simulationClass='BPM.TestSOAP_data
       }
     }
 }
