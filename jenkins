@@ -21,7 +21,6 @@ pipeline {
            echo 'Compilando aplicación'
            sh 'mvn clean'
                 }
-
         echo 'Test...'
           sh 'mvn gatling:test -Dgatling.simulationClass='BPM.TestSOAP_data
       }
